@@ -1,0 +1,20 @@
+Process Of Programming---
+source_code- code generated y huan
+preprocessor- cleaning the code including extra spaces
+intermediate_code -code after preprocessing 
+compiler- compiles the program, cg=hecks whether all the rules of prgramminh language are followed or not
+assembly_code- code after compilation
+object_code- converting the assembly code into machine code
+linker- links all the standard library and the external library with the souce code(linker should be above)
+loader- loads the prgram into RAM
+output- could be correct or wrong if run time error
+
+<< = stream insertion operator , print the values
+>> = stream extraction , extracts the input and store it in the variables
+if just printing variable of int or float witout any value then it will print "garbage value".
+returning zero in the main because it is a function and it has to return something . it is returning zero to the operating system.
+endl is not used for "cin", only for "cout".
+comments are used for description . types- single line "/" , pad "/* */" . helpful if you want to analyse the programs after sometimes to know what various functions are returning .
+increment and decrement operators are ++ and -- . postfix=++a(increment from the later statements)  prefix=a++(increment from the current statement) 
+modulus='%' gives us the remainder , short hand operator are '+=' or '-=' or '*=' or '/='
+condition_statments- if(condition){} ,else(condition){}, else if(condition){}
