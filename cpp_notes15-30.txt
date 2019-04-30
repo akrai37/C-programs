@@ -1,0 +1,22 @@
+16-20
+logical operators- &&  ||  !
+comparison operators- ==  >= <=
+TernaryOperator - can be used instead of if-else ,format- condition ? statement1 : statement2
+WhileLoop- while(condition){statments followed by counter}
+DoWhileLoop-do{statements}while(); , The differnce between dowhile and while is that in DoWhile the statement would be executed atleast once followed by the condition in the while loop . the counter could be run at the end of statements in the doWhile if it is used .
+It is ended by semi-colon.
+ForLoop- for(initialization ; condition ; updation ){}
+
+21-25
+arrays are collection of values of same datatype .syntax: variable[total no. of memory blocks]={values };
+it is declare like dictionary in python.
+while declaring the array , remember we will declare the total number of memory blocks from ONE , not zero . ex- for six blocks a[6] 
+not a[5]
+while extracting the values from array we will use index from ZERO , not ONE ex- marks[1] represents second element not one .
+mutidimentional array represents row and column - a[0][2] is 1st row and 3rd column. syntax-{ {},{} };
+functions perform specific tasks . it will either return the value or not. syntax- datatype function(){}
+no semicolon at end . Also we can call the functions as many times as we want.
+if function is defined after main fn , then we have to create a Prototype which is declaring fn before main with the datatype of parameters . semicolon is must for prototype.
+if datatype is other than void than we have to return a value to the fn where it is called.
+we can also declare values at the prototype , then we dont have to decare that specific parameter value at the CALL of fn  . this type of fn is called default fn.
+
