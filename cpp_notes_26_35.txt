@@ -1,0 +1,17 @@
+26-30
+local variables are declared inside a fn and can only be used inside the fn. 
+Global variables  can be used anywhere in  the program and are declared after the header files in general.
+break and continue statements are generally used in loops . Break is used if we have to exit the statement or the loop IMMEDIATELY.
+continue is used to skip only the particular statement. if used in the loop it will skip the statement then will go the the next counter until the expression becomes false. while loop with continue statements declare counter two times.
+Switch is nothing but CONDITIONAL statement like if-else . syntax: switch(expression){case 1:{statements_with_break} case 2:{statemments_with_break} default:{statements}} . {} are not necessary after the case declaration.
+expression in the switch is nothing but the case value . if expression matches the case value like 1 or 2 as example , then it execute the statements of that case followed by break.
+
+31-35
+the CASES in SWITCH can have range of values rather than the one or two values. the value used in  one case cannot be used in other case.
+syntax- case 1.....99: { } , the curly brackets are optional.
+"&" is the address operator . it stores the address of the variable that has stored some values.
+POINTER is the variable that is used to stored the address of the other variable. It is declared with "*" .Ex- int *ageptr;
+only for declaration purpose , "*"  is used for pointers but while using it it will b used as normal variable without the "*". to store the address , should be using the "&" infront of the variable. ex- ageptr= &age;
+the speciality of pointer is that you can also GET the value stored at the address or the memory location. the syntax would be just adding the '*' in front of variable.ex- *ageptr; will give the the value stored in the variable age.
+Dont get CONFUSED in the declaration .for declaration purpose also , we will use the '*' but while using it in the program , it has differnt PURPOSE.  
+-We can also pass array as an argument to the function. look for code. Ex-void show(int number[],int length)
