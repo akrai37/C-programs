@@ -16,7 +16,7 @@ void show(student *s);
 
 int main(){
 
-student dab= {2414,'m',22};//one more way to declare the values of STRCTURE member
+student dab= {2414,'m',22}; //one more way to declare the values of STRCTURE member
 
 
  display(dab);
