@@ -13,7 +13,7 @@ int main(){
 
 student status;//status here is the local structure variable and can only be used in the main fn.
 
-status.roll=45;
+status.roll= 45;
 status.gender='m';
 
 john.roll=57;
