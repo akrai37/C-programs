@@ -1,0 +1,21 @@
+36-39
+-passing the reference value in the function means passing the address rather than the value itself. 
+-passing the reference is one of the most important program till done . Remember always store address of value in the pointer and thus for that take care of & while passing or initializing the variable , when to use and how to use it. ip- if a fn has a pointer as an argument than it will recieve the ADDRESS variable rather than the actual variable having the value.
+-we can get the array values from two methods. thorugh index as well as pointers.for index, syntax-a[any_number_in_array] , for pointers, syntax- *(a+any_number_in_array)
+-If the argument of the function is array , then while passing the value  to the function through main fn(as we do usually) , we can give the range of array values  rather then the whole array list . ex- display(a, a+2) will pass the value from 0th index to the 2nd index rather then the whole array list values. 
+-"const" is used for the variable whose value should be used similar through out the program.we can make any changes or modify it.
+
+40-45
+-Structure is the collection of different  elements of differnt variables. unlike array which is the collection of similar elements of same data type. we define the variable of the structure in the main fn (or any other fn)  and then through that variable we can access and initialize the variables of structure . syntax-struct student{ }  , ex- student stud ; stud.name= "john"; 
+in other words , we can say that structure is the modified version of array since all the values will  be stored in the name of SAME variable name but they can  be of differnt datatype.
+-we can assign the value to the variable of the structure through pointer also , instead of common method . we can declare the pointer variable of the structure that will store the ADDRESS of the other declared variable of the same structure. 
+syntax-student addr;   student *addrptr ;   addr=&addrptr;   ( addr.name;  addrptr->name; ) are same and both can be used to assign the same value.
+remember , since addrptr has STORED the address of the addr , thats why they are interlinked .
+- passing structure to the function with pointer variable as an argument. Simple program with two fn taking structure as argument , one has normal variable and other has pointer variable as an argument. Since , pointer is of same name as that of other variable , no need to assign the address to it.
+changes in fn 1 wont make any changes to the main() but in fn 2 it will change the original values.
+because when you call By-Value it makes a copy and sends that into the function. You are now making changes to the copy not the original back in the Main(). A pointer, points directly to the memory address of the original﻿.
+-structure can be declared within other structure. lets say there are two structures 1 and 2 and 1 is declared in 2 . then we can initialize any variable of structure 1  using the datatype variable of 2. ex-struct show{ int anyvariable} ; struct stud{ show addr }; main{stud s; s.addr.anyvariable=value};
+-if we have two structures and the 2 has 1 in it ,being defined (forming nested structures), then we can access both the structure variables through their pointers . look for the example. ex-rohanptr->addr.street; where rohanptr is the pointer variable of the 2 structure , addr is the variable of 1 struct.    
+ex-rohanptr->addrptr->house_no; it has rohanptr as pointer variable of 2 struct. and addrptr as pointer variable of struct. 1 which has stored the addrss of ANOTHER variable of the SAME structure i.e. struct. 1.
+-sizeof determines the size of the variable . like 2,4,8bits . it can also determine the size of the structure. syntax-sizeof(age);
+sizeof(char); sizeof(float);
